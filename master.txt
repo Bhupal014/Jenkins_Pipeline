@@ -1,0 +1,25 @@
+pipeline{
+      agent any
+      stages {
+         stage("Build"){
+            steps {
+               echo "Build pipeline is created"
+                   }
+               }
+          stage("Deploy"){
+            steps {
+               echo "Deployment pipeline is created"
+                   }
+               }
+          stage("Test"){
+            steps {
+               echo "Test pipeline is created"
+                   }
+               }
+          stage("Release"){
+            steps {
+               echo "Release pipeline is created"
+                   }
+               }
+           }
+      }
